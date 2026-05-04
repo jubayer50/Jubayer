@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <div className="bg-[#011b30] opacity-80 border-b border-[#0367A640] shadow-sm">
       <div>
-        <div className="navbar max-w-290 mx-auto">
+        <div className="navbar max-w-310 mx-auto">
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -71,7 +71,7 @@ const Navbar = () => {
             </div>
 
             <div className="">
-              <button className="btn font-medium bg-[#05F2F2] border-none text-[#021525]">
+              <button className="btn font-medium bg-[#05F2F2] border-none text-[#021525] shadow-none">
                 Hire me
               </button>
             </div>
