@@ -20,7 +20,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="bg-[#011b30] opacity-80 border-b border-[#0367A640] shadow-sm">
+    <div className="bg-[#011b3075]  border-b border-[#0367A650] sticky top-0 z-30 backdrop-blur-2xl">
       <div>
         <div className="navbar max-w-310 mx-auto">
           <div className="navbar-start">
@@ -46,10 +46,7 @@ const Navbar = () => {
                   />{" "}
                 </svg>
               </div>
-              <ul
-                tabIndex="-1"
-                className="menu menu-sm dropdown-content bg-[#011b30] border border-[#0367A640] rounded-box z-1 mt-3 w-52 p-2 shadow"
-              >
+              <ul className="menu menu-sm dropdown-content bg-[#011b30]/90 backdrop-blur-xl border border-[#0367A640] rounded-box mt-3 w-52 p-2">
                 {links}
               </ul>
             </div>

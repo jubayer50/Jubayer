@@ -28,6 +28,20 @@ const Banner = () => {
     },
   });
 
+  // for banner pic useSpring
+  const floatingImage = useSpring({
+    from: { x: 0, y: 0, rotate: 0 },
+    to: async (next) => {
+      while (true) {
+        await next({ x: 10, y: -10, rotate: 2 });
+        await next({ x: -8, y: 8, rotate: -2 });
+        await next({ x: 5, y: -5, rotate: 1 });
+        await next({ x: 0, y: 0, rotate: 0 });
+      }
+    },
+    config: { duration: 3000 },
+  });
+
   return (
     <div className="py-18 md:py-25 md:text-center px-2 max-w-310 mx-auto">
       <div className="flex flex-col-reverse md:flex-row justify-center md:justify-between items-center gap-10">
@@ -79,9 +93,52 @@ const Banner = () => {
               </button>
             </Link>
           </div>
+
+          <div className="flex justify-center md:justify-start mt-5 md:mt-7">
+            <button className="bg-[#0367A630] backdrop-blur-sm rounded-full border border-[#05F2F250] text-white text-[14px] px-3 py-1 flex items-center gap-2">
+              <animated.div
+                className="w-2 h-2 bg-[#05F2F2] rounded-full"
+                style={availableHighLight}
+              ></animated.div>
+              Available Now
+            </button>
+          </div>
         </div>
 
-        <div className="relative w-70 h-70 md:w-95 md:h-95">
+        {/* -------------------------- ----------------------------*/}
+
+        <animated.div
+          style={{
+            transform: floatingImage.x.to((x) => `translateX(${x}px)`),
+          }}
+        >
+          <animated.div
+            style={{
+              transform: floatingImage.y.to((y) => `translateY(${y}px)`),
+            }}
+          >
+            <animated.div
+              style={{
+                transform: floatingImage.rotate.to((r) => `rotate(${r}deg)`),
+              }}
+            >
+              <div className="relative w-70 h-70 md:w-95 md:h-95">
+                <Image
+                  src={ImageJubayer}
+                  alt="Jubayer"
+                  width={600}
+                  height={600}
+                  className="rounded-full w-full h-full absolute object-cover border-3 border-[#05F2F250] z-20"
+                ></Image>
+                <div className="w-40 h-40 bg-[#05F2F2] rounded-full absolute top-[50%] left-[50%] blur-3xl opacity-40 translate-y-[-50%] translate-x-[-50%]"></div>
+              </div>
+            </animated.div>
+          </animated.div>
+        </animated.div>
+
+        {/* --------------------------------------------------- */}
+
+        {/* <div className="relative w-70 h-70 md:w-95 md:h-95">
           <Image
             src={ImageJubayer}
             alt="Jubayer"
@@ -89,8 +146,8 @@ const Banner = () => {
             height={600}
             className="rounded-full w-full h-full absolute object-cover border-3 border-[#05F2F250] z-20"
           ></Image>
-          <div className="w-40 h-40 bg-[#05F2F2] rounded-full absolute top-[50%] left-[50%] z-5  blur-3xl opacity-40 translate-y-[-50%] translate-x-[-50%]"></div>
-        </div>
+          <div className="w-40 h-40 bg-[#05F2F2] rounded-full absolute top-[50%] left-[50%] blur-3xl opacity-40 translate-y-[-50%] translate-x-[-50%]"></div>
+        </div> */}
       </div>
 
       {/* 
