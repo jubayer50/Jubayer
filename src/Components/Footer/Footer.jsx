@@ -3,7 +3,7 @@ import React from "react";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
-import { RiGithubLine } from "react-icons/ri";
+import { RiGithubLine, RiVercelFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
@@ -21,13 +21,13 @@ const Footer = () => {
             <h3 className="text-lg font-medium">Social Links:</h3>
 
             <div className="mt-2 flex items-center gap-3">
-              <div className="text-xl w-9 h-9 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
+              <div className="text-xl w-8 h-8 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
                 <Link href={"https://github.com/jubayer50"} target="_blank">
                   <RiGithubLine className="object-cover text-[#05F2F2] " />
                 </Link>
               </div>
 
-              <div className="text-xl w-9 h-9 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
+              <div className="text-xl w-8 h-8 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
                 <Link
                   href={"https://www.linkedin.com/in/jubayerh50/"}
                   target="_blank"
@@ -36,7 +36,7 @@ const Footer = () => {
                 </Link>
               </div>
 
-              <div className="text-xl w-9 h-9 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
+              <div className="text-xl w-8 h-8 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
                 <Link
                   href={"https://www.facebook.com/jubayer050/"}
                   target="_blank"
@@ -45,9 +45,15 @@ const Footer = () => {
                 </Link>
               </div>
 
-              <div className="text-xl w-9 h-9 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
-                <Link href="mailto:usjubayer1@gmail.com">
+              <div className="text-xl w-8 h-8 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
+                <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=usjubayer1@gmail.com">
                   <MdOutlineEmail className="object-cover text-[#05F2F2]" />
+                </Link>
+              </div>
+
+              <div className="text-xl w-8 h-8 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
+                <Link href="https://vercel.com/md-jubayer-hossains-projects">
+                  <RiVercelFill className="object-cover text-[15px] text-[#05F2F2]" />
                 </Link>
               </div>
             </div>

@@ -1,3 +1,4 @@
+import About from "@/Components/About/About";
 import Banner from "@/Components/HomePage/Banner";
 import React from "react";
 
@@ -6,7 +7,7 @@ const HomePage = () => {
     <div>
       <Banner></Banner>
 
-      <h2>Home page</h2>
+      <About></About>
     </div>
   );
 };

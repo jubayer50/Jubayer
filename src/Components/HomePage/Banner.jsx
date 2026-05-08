@@ -5,6 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { IoArrowDownOutline } from "react-icons/io5";
 import ImageJubayer from "@/assets/Images/jubayer.png";
+import { RiGithubLine, RiVercelFill } from "react-icons/ri";
+import { FaLinkedinIn } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
 
 const Banner = () => {
   const springs = useSpring({
@@ -94,7 +97,39 @@ const Banner = () => {
             </Link>
           </div>
 
-          <div className="flex justify-center md:justify-start mt-5 md:mt-7">
+          <div className="flex items-center gap-3 mt-4 md:mt-6">
+            <div className="text-xl w-8 h-8 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
+              <Link href={"https://github.com/jubayer50"} target="_blank">
+                <RiGithubLine className="object-cover text-[#05F2F2] " />
+              </Link>
+            </div>
+
+            <div className="text-xl w-8 h-8 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
+              <Link
+                href={"https://www.linkedin.com/in/jubayerh50/"}
+                target="_blank"
+              >
+                <FaLinkedinIn className="object-cover text-[#05F2F2]" />
+              </Link>
+            </div>
+
+            <div className="text-xl w-8 h-8 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
+              <Link
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=usjubayer1@gmail.com"
+                target="_blank"
+              >
+                <MdOutlineEmail className="object-cover text-[#05F2F2]" />
+              </Link>
+            </div>
+
+            <div className="text-xl w-8 h-8 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
+              <Link href="https://vercel.com/md-jubayer-hossains-projects">
+                <RiVercelFill className="object-cover text-[15px] text-[#05F2F2]" />
+              </Link>
+            </div>
+          </div>
+
+          <div className="flex justify-center md:justify-start mt-4 md:mt-6">
             <button className="bg-[#0367A625] backdrop-blur-sm rounded-full border border-[#0367A650] text-white text-[14px] px-3 py-1 flex items-center gap-2">
               <animated.div
                 className="w-2 h-2 bg-[#05F2F2] rounded-full"
