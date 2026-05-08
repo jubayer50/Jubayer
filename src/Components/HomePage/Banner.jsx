@@ -97,7 +97,7 @@ const Banner = () => {
             </Link>
           </div>
 
-          <div className="flex items-center gap-3 mt-4 md:mt-6">
+          <div className="flex items-center justify-center md:justify-start gap-3 mt-4 md:mt-6 ">
             <div className="text-xl w-8 h-8 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
               <Link href={"https://github.com/jubayer50"} target="_blank">
                 <RiGithubLine className="object-cover text-[#05F2F2] " />
