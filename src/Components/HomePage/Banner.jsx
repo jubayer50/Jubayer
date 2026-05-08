@@ -6,7 +6,7 @@ import Link from "next/link";
 import { IoArrowDownOutline } from "react-icons/io5";
 import ImageJubayer from "@/assets/Images/jubayer.png";
 import { RiGithubLine, RiVercelFill } from "react-icons/ri";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 
 const Banner = () => {
@@ -125,6 +125,12 @@ const Banner = () => {
             <div className="text-xl w-8 h-8 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
               <Link href="https://vercel.com/md-jubayer-hossains-projects">
                 <RiVercelFill className="object-cover text-[15px] text-[#05F2F2]" />
+              </Link>
+            </div>
+
+            <div className="text-xl w-8 h-8 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
+              <Link href="https://wa.me/8801818237050">
+                <FaWhatsapp className="object-cover text-[#05F2F2]" />
               </Link>
             </div>
           </div>

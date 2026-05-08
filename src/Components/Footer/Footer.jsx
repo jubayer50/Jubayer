@@ -1,13 +1,13 @@
 import Link from "next/link";
 import React from "react";
-import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiGithubLine, RiVercelFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <div className="border-t border-[#0367A650] mt-10 md:mt-16">
+    <div className="border-t border-[#0367A650] mt-14 md:mt-20">
       <div className="max-w-310 mx-auto pt-8 md:pt-12 px-3">
         <div className="pb-6 flex flex-col md:flex-row justify-between gap-6">
           <div>
@@ -42,6 +42,12 @@ const Footer = () => {
                   target="_blank"
                 >
                   <FaFacebookF className="object-cover text-[#05F2F2]" />
+                </Link>
+              </div>
+
+              <div className="text-xl w-8 h-8 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
+                <Link href="https://wa.me/8801818237050">
+                  <FaWhatsapp className="object-cover text-[#05F2F2]" />
                 </Link>
               </div>
 
