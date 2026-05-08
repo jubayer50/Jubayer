@@ -95,7 +95,7 @@ const Banner = () => {
           </div>
 
           <div className="flex justify-center md:justify-start mt-5 md:mt-7">
-            <button className="bg-[#0367A630] backdrop-blur-sm rounded-full border border-[#05F2F250] text-white text-[14px] px-3 py-1 flex items-center gap-2">
+            <button className="bg-[#0367A625] backdrop-blur-sm rounded-full border border-[#0367A650] text-white text-[14px] px-3 py-1 flex items-center gap-2">
               <animated.div
                 className="w-2 h-2 bg-[#05F2F2] rounded-full"
                 style={availableHighLight}
