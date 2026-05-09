@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const AboutPage = () => {
   return (
-    <div className="max-w-310 mx-auto my-20">
-      <div className="flex items-center gap-7 justify-between">
+    <div className="max-w-310 mx-auto my-20 px-3">
+      <div className="flex flex-col-reverse md:flex-row items-center  gap-7 justify-between">
         <div>
           <About></About>
         </div>
