@@ -1,11 +1,203 @@
-import React from "react";
+import Image from "next/image";
+import JavaScript from "@/assets/Images/js.png";
+import React from "@/assets/Images/react.png";
+import Next from "@/assets/Images/nextjs.png";
+import Tailwind from "@/assets/Images/tailwindcss.png";
+import Nodejs from "@/assets/Images/nodejs.png";
+import Express from "@/assets/Images/expressjs.png";
+import Redux from "@/assets/Images/redux.png";
+import Git from "@/assets/Images/git.png";
 
 const SkillsAndTechnology = () => {
   return (
-    <div className="my-14 md:my-20 max-w-310 mx-auto px-3">
+    <div className="my-18 md:my-40 max-w-310 mx-auto px-3">
       <h2 className="font-bold text-xl md:text-2xl text-[#05F2F2]">
         Skills And Technology
       </h2>
+      <h4 className="text-lg text-[#7588A3] mt-1">
+        Skilled in the modern web ecosystem and technologies with a strong focus
+        on scalable architecture, high performance, and clean code.
+      </h4>
+
+      <div className="mt-5 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5">
+        <div className="group relative overflow-hidden text-center border border-[#0367A650] rounded-xl p-5 bg-[#011b3075] hover:scale-103 duration-300 transform transition-all ease-in hover:border-[#05F2F290]">
+          {/* blur effect */}
+          <div>
+            <div className="h-10 w-10 rounded-full opacity-0 group-hover:opacity-100 bg-[#05F2F2] blur-3xl absolute top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%] transition-all duration-500"></div>
+          </div>
+
+          <div>
+            <Image
+              src={JavaScript}
+              alt="JavaScript"
+              width={400}
+              height={400}
+              className="w-13 mx-auto rounded-md"
+            ></Image>
+          </div>
+
+          <div className="mt-4">
+            <h3 className="font-semibold text-xl text-[#05F2F2]">JavaScript</h3>
+            <p className="font-medium text-[#7588A3]">Advanced</p>
+          </div>
+        </div>
+
+        <div className="group relative overflow-hidden text-center border border-[#0367A650] rounded-xl p-5 bg-[#011b3075] hover:scale-103 duration-300 transform transition-all ease-in hover:border-[#05F2F290]">
+          {/* blur effect */}
+          <div>
+            <div className="h-10 w-10 rounded-full opacity-0 group-hover:opacity-100 bg-[#05F2F2] blur-3xl absolute top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%] transition-all duration-500"></div>
+          </div>
+
+          <div>
+            <Image
+              src={React}
+              alt="JavaScript"
+              width={400}
+              height={400}
+              className="w-13 mx-auto rounded-md"
+            ></Image>
+          </div>
+
+          <div className="mt-4">
+            <h3 className="font-semibold text-xl text-[#05F2F2]">React</h3>
+            <p className="font-medium text-[#7588A3]">Advanced</p>
+          </div>
+        </div>
+
+        <div className="group relative overflow-hidden text-center border border-[#0367A650] rounded-xl p-5 bg-[#011b3075] hover:scale-103 duration-300 transform transition-all ease-in hover:border-[#05F2F290]">
+          {/* blur effect */}
+          <div>
+            <div className="h-10 w-10 rounded-full opacity-0 group-hover:opacity-100 bg-[#05F2F2] blur-3xl absolute top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%] transition-all duration-500"></div>
+          </div>
+
+          <div>
+            <Image
+              src={Next}
+              alt="JavaScript"
+              width={400}
+              height={400}
+              className="w-13 mx-auto rounded-md"
+            ></Image>
+          </div>
+
+          <div className="mt-4">
+            <h3 className="font-semibold text-xl text-[#05F2F2]">NextJs</h3>
+            <p className="font-medium text-[#7588A3]">Advanced</p>
+          </div>
+        </div>
+
+        <div className="group relative overflow-hidden text-center border border-[#0367A650] rounded-xl p-5 bg-[#011b3075] hover:scale-103 duration-300 transform transition-all ease-in hover:border-[#05F2F290]">
+          {/* blur effect */}
+          <div>
+            <div className="h-10 w-10 rounded-full opacity-0 group-hover:opacity-100 bg-[#05F2F2] blur-3xl absolute top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%] transition-all duration-500"></div>
+          </div>
+
+          <div>
+            <Image
+              src={Tailwind}
+              alt="JavaScript"
+              width={400}
+              height={400}
+              className="w-13 mx-auto rounded-md"
+            ></Image>
+          </div>
+
+          <div className="mt-4">
+            <h3 className="font-semibold text-xl text-[#05F2F2]">
+              TailwindCSS
+            </h3>
+            <p className="font-medium text-[#7588A3]">Advanced</p>
+          </div>
+        </div>
+
+        <div className="group relative overflow-hidden text-center border border-[#0367A650] rounded-xl p-5 bg-[#011b3075] hover:scale-103 duration-300 transform transition-all ease-in hover:border-[#05F2F290]">
+          {/* blur effect */}
+          <div>
+            <div className="h-10 w-10 rounded-full opacity-0 group-hover:opacity-100 bg-[#05F2F2] blur-3xl absolute top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%] transition-all duration-500"></div>
+          </div>
+
+          <div>
+            <Image
+              src={Nodejs}
+              alt="JavaScript"
+              width={400}
+              height={400}
+              className="w-13 mx-auto rounded-md"
+            ></Image>
+          </div>
+
+          <div className="mt-4">
+            <h3 className="font-semibold text-xl text-[#05F2F2]">NodeJs</h3>
+            <p className="font-medium text-[#7588A3]">Advanced</p>
+          </div>
+        </div>
+
+        <div className="group relative overflow-hidden text-center border border-[#0367A650] rounded-xl p-5 bg-[#011b3075] hover:scale-103 duration-300 transform transition-all ease-in hover:border-[#05F2F290]">
+          {/* blur effect */}
+          <div>
+            <div className="h-10 w-10 rounded-full opacity-0 group-hover:opacity-100 bg-[#05F2F2] blur-3xl absolute top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%] transition-all duration-500"></div>
+          </div>
+
+          <div>
+            <Image
+              src={Express}
+              alt="JavaScript"
+              width={400}
+              height={400}
+              className="w-13 mx-auto rounded-md"
+            ></Image>
+          </div>
+
+          <div className="mt-4">
+            <h3 className="font-semibold text-xl text-[#05F2F2]">ExpressJs</h3>
+            <p className="font-medium text-[#7588A3]">Advanced</p>
+          </div>
+        </div>
+
+        <div className="group relative overflow-hidden text-center border border-[#0367A650] rounded-xl p-5 bg-[#011b3075] hover:scale-103 duration-300 transform transition-all ease-in hover:border-[#05F2F290]">
+          {/* blur effect */}
+          <div>
+            <div className="h-10 w-10 rounded-full opacity-0 group-hover:opacity-100 bg-[#05F2F2] blur-3xl absolute top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%] transition-all duration-500"></div>
+          </div>
+
+          <div>
+            <Image
+              src={Redux}
+              alt="JavaScript"
+              width={400}
+              height={400}
+              className="w-13 mx-auto rounded-md"
+            ></Image>
+          </div>
+
+          <div className="mt-4">
+            <h3 className="font-semibold text-xl text-[#05F2F2]">Redux</h3>
+            <p className="font-medium text-[#7588A3]">Advanced</p>
+          </div>
+        </div>
+
+        <div className="group relative overflow-hidden text-center border border-[#0367A650] rounded-xl p-5 bg-[#011b3075] hover:scale-103 duration-300 transform transition-all ease-in hover:border-[#05F2F290]">
+          {/* blur effect */}
+          <div>
+            <div className="h-10 w-10 rounded-full opacity-0 group-hover:opacity-100 bg-[#05F2F2] blur-3xl absolute top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%] transition-all duration-500"></div>
+          </div>
+
+          <div>
+            <Image
+              src={Git}
+              alt="JavaScript"
+              width={400}
+              height={400}
+              className="w-13 mx-auto rounded-md"
+            ></Image>
+          </div>
+
+          <div className="mt-4">
+            <h3 className="font-semibold text-xl text-[#05F2F2]">Git</h3>
+            <p className="font-medium text-[#7588A3]">Advanced</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
