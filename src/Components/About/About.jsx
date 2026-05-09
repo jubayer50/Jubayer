@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -50,6 +51,14 @@ const About = () => {
                   Passionate Full-Stack Engineer.
                 </strong>
               </p>
+
+              <div className="mt-4">
+                <Link href={"/about"}>
+                  <button className="btn border-none bg-[#05F2F2] shadow-none text-[#021525]">
+                    Know More about Me
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
