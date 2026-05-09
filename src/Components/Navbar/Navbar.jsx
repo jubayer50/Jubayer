@@ -62,11 +62,13 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="navbar-end flex items-center gap-4">
-            <div className="hidden lg:flex">
-              <ul className="menu menu-horizontal px-1 gap-4">{links}</ul>
+          <div className="navbar-center flex items-center gap-4">
+            <div className="hidden lg:flex border px-3.5 py-2.5 border-[#0367A670] rounded-full">
+              <ul className="flex items-center gap-7">{links}</ul>
             </div>
+          </div>
 
+          <div className="navbar-end">
             <div className="">
               <button className="btn font-medium bg-[#05F2F2] border-none text-[#021525] shadow-none">
                 Hire me
