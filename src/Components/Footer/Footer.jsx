@@ -11,9 +11,11 @@ const Footer = () => {
       <div className="max-w-310 mx-auto pt-8 md:pt-12 px-3">
         <div className="pb-6 flex flex-col md:flex-row justify-between gap-6">
           <div>
-            <h2 className="font-semibold text-[26px] text-[#05F2F2]">
-              Jubayer
-            </h2>
+            <Link href={"/"}>
+              <h2 className="font-semibold text-[26px] text-[#05F2F2]">
+                Jubayer
+              </h2>
+            </Link>
             <p className="text-[#7588A3]">Frontend Web Developer</p>
           </div>
 
@@ -46,19 +48,25 @@ const Footer = () => {
               </div>
 
               <div className="text-xl w-8 h-8 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
-                <Link href="https://wa.me/8801818237050">
+                <Link href="https://wa.me/8801818237050" target="_blank">
                   <FaWhatsapp className="object-cover text-[#05F2F2]" />
                 </Link>
               </div>
 
               <div className="text-xl w-8 h-8 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
-                <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=usjubayer1@gmail.com">
+                <Link
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=usjubayer1@gmail.com"
+                  target="_blank"
+                >
                   <MdOutlineEmail className="object-cover text-[#05F2F2]" />
                 </Link>
               </div>
 
               <div className="text-xl w-8 h-8 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
-                <Link href="https://vercel.com/md-jubayer-hossains-projects">
+                <Link
+                  href="https://vercel.com/md-jubayer-hossains-projects"
+                  target="_blank"
+                >
                   <RiVercelFill className="object-cover text-[15px] text-[#05F2F2]" />
                 </Link>
               </div>

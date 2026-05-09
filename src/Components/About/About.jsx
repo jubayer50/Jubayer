@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ImageJubayer from "@/assets/Images/about.png";
+
 const About = () => {
   return (
     <div className="my-16 md:my-25 max-w-310 mx-auto px-3">

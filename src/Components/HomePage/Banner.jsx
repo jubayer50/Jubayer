@@ -123,13 +123,16 @@ const Banner = () => {
             </div>
 
             <div className="text-xl w-8 h-8 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
-              <Link href="https://vercel.com/md-jubayer-hossains-projects">
+              <Link
+                href="https://vercel.com/md-jubayer-hossains-projects"
+                target="_blank"
+              >
                 <RiVercelFill className="object-cover text-[15px] text-[#05F2F2]" />
               </Link>
             </div>
 
             <div className="text-xl w-8 h-8 p-2 rounded-full border border-[#0367A690] flex items-center justify-center">
-              <Link href="https://wa.me/8801818237050">
+              <Link href="https://wa.me/8801818237050" target="_blank">
                 <FaWhatsapp className="object-cover text-[#05F2F2]" />
               </Link>
             </div>
