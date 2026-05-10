@@ -5,7 +5,7 @@ import Tiles from "@/assets/Images/tiles.jpg";
 
 const Projects = () => {
   return (
-    <div className="max-w-310 mx-auto">
+    <div className="max-w-310 mx-auto px-3">
       <div>
         <h2 className="font-bold text-2xl md:text-2xl text-[#05F2F2]">
           Projects
@@ -16,7 +16,7 @@ const Projects = () => {
         </p>
 
         <div className="mt-10">
-          <div className="grid grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             <div className="space-y-4 group bg-[#011b30] overflow-hidden rounded-lg border border-[#0367A640] hover:border-[#05F2F290] transition-all duration-400">
               <div>
                 <Image
