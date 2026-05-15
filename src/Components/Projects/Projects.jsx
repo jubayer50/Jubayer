@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import Tiles from "@/assets/Images/tiles.jpg";
+import KeenKeeper from "@/assets/Images/keenKeeper.jpg";
+import DigiTools from "@/assets/Images/Digitools.jpg";
 
 const Projects = () => {
   return (
@@ -66,8 +68,8 @@ const Projects = () => {
             <div className="space-y-4 group bg-[#011b30] overflow-hidden rounded-lg border border-[#0367A640] hover:border-[#05F2F290] transition-all duration-400 flex flex-col h-full">
               <div>
                 <Image
-                  src={Tiles}
-                  alt="Tiles Gallery"
+                  src={KeenKeeper}
+                  alt="KeenKeeper"
                   width={800}
                   height={800}
                   className="w-full rounded-md object-cover transition-transform duration-400 ease-in-out group-hover:scale-104"
@@ -88,7 +90,7 @@ const Projects = () => {
 
                 <div className="flex items-center gap-4">
                   <Link
-                    href={"https://github.com/jubayer50/Tiles-Gallery"}
+                    href={"https://github.com/jubayer50/KeenKeeper"}
                     target="_blank"
                   >
                     <button className="btn text-[#021525] bg-[#05F2F2] shadow-none border-none">
@@ -97,7 +99,7 @@ const Projects = () => {
                   </Link>
 
                   <Link
-                    href={"https://tiles-gallery-jubayer-50.vercel.app/"}
+                    href={"https://kin-keeper-jubayer50.vercel.app/"}
                     target="_blank"
                   >
                     <button className="btn text-[#021525] bg-[#05F2F2] shadow-none border-none">
@@ -111,8 +113,8 @@ const Projects = () => {
             <div className="space-y-4 group bg-[#011b30] overflow-hidden rounded-lg border border-[#0367A640] hover:border-[#05F2F290] transition-all duration-400 flex flex-col h-full">
               <div>
                 <Image
-                  src={Tiles}
-                  alt="Tiles Gallery"
+                  src={DigiTools}
+                  alt="DigiTools"
                   width={800}
                   height={800}
                   className="w-full rounded-md object-cover transition-transform duration-400 ease-in-out group-hover:scale-104"
@@ -134,7 +136,7 @@ const Projects = () => {
 
                 <div className="flex items-center gap-4">
                   <Link
-                    href={"https://github.com/jubayer50/Tiles-Gallery"}
+                    href={"https://github.com/jubayer50/digiTools"}
                     target="_blank"
                   >
                     <button className="btn text-[#021525] bg-[#05F2F2] shadow-none border-none">
@@ -143,7 +145,7 @@ const Projects = () => {
                   </Link>
 
                   <Link
-                    href={"https://tiles-gallery-jubayer-50.vercel.app/"}
+                    href={"https://digi-tools-jubayer50.netlify.app/"}
                     target="_blank"
                   >
                     <button className="btn text-[#021525] bg-[#05F2F2] shadow-none border-none">
