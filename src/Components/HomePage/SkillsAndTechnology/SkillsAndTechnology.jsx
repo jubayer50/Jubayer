@@ -39,7 +39,7 @@ const SkillsAndTechnology = () => {
 
           <div className="mt-4">
             <h3 className="font-semibold text-xl text-[#05F2F2]">JavaScript</h3>
-            <p className="font-medium text-[#7588A3]">Advanced</p>
+            <p className="font-medium text-[#7588A3]"></p>
           </div>
         </div>
 
@@ -61,7 +61,7 @@ const SkillsAndTechnology = () => {
 
           <div className="mt-4">
             <h3 className="font-semibold text-xl text-[#05F2F2]">React</h3>
-            <p className="font-medium text-[#7588A3]">Advanced</p>
+            <p className="font-medium text-[#7588A3]"></p>
           </div>
         </div>
 
@@ -83,7 +83,7 @@ const SkillsAndTechnology = () => {
 
           <div className="mt-4">
             <h3 className="font-semibold text-xl text-[#05F2F2]">NextJs</h3>
-            <p className="font-medium text-[#7588A3]">Advanced</p>
+            <p className="font-medium text-[#7588A3]"></p>
           </div>
         </div>
 
@@ -107,7 +107,7 @@ const SkillsAndTechnology = () => {
             <h3 className="font-semibold text-xl text-[#05F2F2]">
               TailwindCSS
             </h3>
-            <p className="font-medium text-[#7588A3]">Advanced</p>
+            <p className="font-medium text-[#7588A3]"></p>
           </div>
         </div>
 
@@ -129,7 +129,7 @@ const SkillsAndTechnology = () => {
 
           <div className="mt-4">
             <h3 className="font-semibold text-xl text-[#05F2F2]">NodeJs</h3>
-            <p className="font-medium text-[#7588A3]">Advanced</p>
+            <p className="font-medium text-[#7588A3]"></p>
           </div>
         </div>
 
@@ -151,7 +151,7 @@ const SkillsAndTechnology = () => {
 
           <div className="mt-4">
             <h3 className="font-semibold text-xl text-[#05F2F2]">ExpressJs</h3>
-            <p className="font-medium text-[#7588A3]">Advanced</p>
+            <p className="font-medium text-[#7588A3]"></p>
           </div>
         </div>
 
@@ -173,7 +173,7 @@ const SkillsAndTechnology = () => {
 
           <div className="mt-4">
             <h3 className="font-semibold text-xl text-[#05F2F2]">Redux</h3>
-            <p className="font-medium text-[#7588A3]">Advanced</p>
+            <p className="font-medium text-[#7588A3]"></p>
           </div>
         </div>
 
@@ -195,7 +195,7 @@ const SkillsAndTechnology = () => {
 
           <div className="mt-4">
             <h3 className="font-semibold text-xl text-[#05F2F2]">Git</h3>
-            <p className="font-medium text-[#7588A3]">Advanced</p>
+            <p className="font-medium text-[#7588A3]"></p>
           </div>
         </div>
 
@@ -217,7 +217,7 @@ const SkillsAndTechnology = () => {
 
           <div className="mt-4">
             <h3 className="font-semibold text-xl text-[#05F2F2]">AI</h3>
-            <p className="font-medium text-[#7588A3]">Enhance Productivity </p>
+            <p className="font-medium text-[#7588A3]"></p>
           </div>
         </div>
       </div>

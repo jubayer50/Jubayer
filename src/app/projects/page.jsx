@@ -41,6 +41,29 @@ const ProjectsPage = () => {
                     protecting personalized user profiles and exclusive product
                     data.
                   </p>
+
+                  {/* <div className="badge badge-soft badge-primary">Primary</div> */}
+                  <div className="flex items-center gap-2 flex-wrap text-[#7588A3]">
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      JavaScript
+                    </p>
+
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      Next.js
+                    </p>
+
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      Tailwind CSS
+                    </p>
+
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      swiper
+                    </p>
+
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      HeroUI
+                    </p>
+                  </div>
                 </div>
 
                 <div className="flex items-center gap-4 ">
@@ -86,6 +109,29 @@ const ProjectsPage = () => {
                     call, and text friends while tracking all interactions in
                     real time through timelines and visual stats charts.
                   </p>
+
+                  {/* <div className="badge badge-soft badge-primary">Primary</div> */}
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      JavaScript
+                    </p>
+
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      React.js,
+                    </p>
+
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      React Router
+                    </p>
+
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      Tailwind CSS
+                    </p>
+
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      DaisyUI
+                    </p>
+                  </div>
                 </div>
 
                 <div className="flex items-center gap-4">
@@ -132,6 +178,25 @@ const ProjectsPage = () => {
                     smart cart system, duplicate item alerts, toast
                     notifications, and a checkout process that clears the cart
                   </p>
+
+                  {/* <div className="badge badge-soft badge-primary">Primary</div> */}
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      JavaScript
+                    </p>
+
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      React.js
+                    </p>
+
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      Tailwind CSS
+                    </p>
+
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      DaisyU
+                    </p>
+                  </div>
                 </div>
 
                 <div className="flex items-center gap-4">
