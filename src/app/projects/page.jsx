@@ -3,6 +3,7 @@ import Link from "next/link";
 import Tiles from "@/assets/Images/tiles.jpg";
 import KeenKeeper from "@/assets/Images/keenKeeper.jpg";
 import DigiTools from "@/assets/Images/Digitools.jpg";
+import IdeaVault from "@/assets/Images/IdeaVault.png";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const ProjectsPage = () => {
@@ -20,13 +21,13 @@ const ProjectsPage = () => {
         <div className="mt-10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             <div className="space-y-4 group bg-[#011b30] overflow-hidden rounded-lg border border-[#0367A640] hover:border-[#05F2F290] transition-all duration-400 flex flex-col h-full">
-              <div>
+              <div className="overflow-hidden max-h-70 h-full">
                 <Image
                   src={Tiles}
                   alt="Tiles Gallery"
                   width={800}
                   height={800}
-                  className="w-full rounded-md object-cover transition-transform duration-400 ease-in-out group-hover:scale-104"
+                  className="w-full h-full object-cover transition-transform duration-400 ease-in-out group-hover:scale-105"
                 ></Image>
               </div>
 
@@ -89,13 +90,90 @@ const ProjectsPage = () => {
             </div>
 
             <div className="space-y-4 group bg-[#011b30] overflow-hidden rounded-lg border border-[#0367A640] hover:border-[#05F2F290] transition-all duration-400 flex flex-col h-full">
-              <div>
+              <div className="overflow-hidden max-h-70 h-full">
+                <Image
+                  src={IdeaVault}
+                  alt="Tiles Gallery"
+                  width={800}
+                  height={800}
+                  className="w-full h-full object-cover object-top transition-transform duration-400 ease-in-out group-hover:scale-105"
+                ></Image>
+              </div>
+
+              <div className="p-5 space-y-4 flex flex-col justify-between flex-1">
+                <div className="space-y-4">
+                  <h2 className="text-xl font-semibold text-[#05F2F2]">
+                    IdeaVault
+                  </h2>
+                  <p className="text-[#7588A3]">
+                    IdeaVault is a full-stack startup idea-sharing platform
+                    where users can publish, explore, and discuss innovative
+                    ideas. It enables community-driven feedback through comments
+                    and interactions.
+                  </p>
+
+                  {/* <div className="badge badge-soft badge-primary">Primary</div> */}
+                  <div className="flex items-center gap-2 flex-wrap text-[#7588A3]">
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      JavaScript
+                    </p>
+
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      Next.js
+                    </p>
+
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      Tailwind CSS
+                    </p>
+
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      swiper
+                    </p>
+
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      HeroUI
+                    </p>
+
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      Better Auth
+                    </p>
+
+                    <p className="badge bg-[#011b30] border border-[#0367A670] text-[#7588A3] hover:border-[#05F2F290] transition-all duration-400">
+                      MongoDB
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-4 ">
+                  <Link
+                    href={"https://github.com/jubayer50/IdeaVault"}
+                    target="_blank"
+                  >
+                    <button className="btn text-[#021525] bg-[#05F2F2] shadow-none border-none">
+                      <FaGithub className="text-lg" /> Repository
+                    </button>
+                  </Link>
+
+                  <Link
+                    href={"https://idea-vault-six-jade.vercel.app/"}
+                    target="_blank"
+                  >
+                    <button className="btn text-[#021525] bg-[#05F2F2] shadow-none border-none">
+                      <FaExternalLinkAlt /> Live Project
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-4 group bg-[#011b30] overflow-hidden rounded-lg border border-[#0367A640] hover:border-[#05F2F290] transition-all duration-400 flex flex-col h-full">
+              <div className="overflow-hidden max-h-70 h-full">
                 <Image
                   src={KeenKeeper}
                   alt="KeenKeeper"
                   width={800}
                   height={800}
-                  className="w-full rounded-md object-cover transition-transform duration-400 ease-in-out group-hover:scale-104"
+                  className="w-full h-full object-cover transition-transform duration-400 ease-in-out group-hover:scale-105"
                 ></Image>
               </div>
 
@@ -157,13 +235,13 @@ const ProjectsPage = () => {
             </div>
 
             <div className="space-y-4 group bg-[#011b30] overflow-hidden rounded-lg border border-[#0367A640] hover:border-[#05F2F290] transition-all duration-400 flex flex-col h-full">
-              <div>
+              <div className="overflow-hidden max-h-70 h-full">
                 <Image
                   src={DigiTools}
                   alt="DigiTools"
                   width={800}
                   height={800}
-                  className="w-full rounded-md object-cover transition-transform duration-400 ease-in-out group-hover:scale-104"
+                  className="w-full h-full object-cover transition-transform duration-400 ease-in-out group-hover:scale-105"
                 ></Image>
               </div>
 

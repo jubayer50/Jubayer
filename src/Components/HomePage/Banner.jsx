@@ -79,8 +79,8 @@ const Banner = () => {
 
           <div className="flex items-center justify-center md:justify-start gap-3 mt-6 md:mt-10">
             <a
-              href=""
-              download={""}
+              href="/Jubayer_Front_End_Developer_Resume.pdf"
+              download
               className="btn bg-[#05F2F2] border-none shadow-none"
             >
               Download Resume
