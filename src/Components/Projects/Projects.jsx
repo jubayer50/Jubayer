@@ -1,3 +1,6 @@
+"use client";
+import { motion } from "motion/react";
+
 import Image from "next/image";
 import Link from "next/link";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
@@ -19,7 +22,15 @@ const Projects = () => {
 
         <div className="mt-10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            <div className="space-y-4 group bg-[#011b30] overflow-hidden rounded-lg border border-[#0367A640] hover:border-[#05F2F290] transition-all duration-400 flex flex-col h-full">
+            <motion.div
+              initial={{ opacity: 0, y: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                duration: 0.5,
+                scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
+              }}
+              className="space-y-4 group bg-[#011b30] overflow-hidden rounded-lg border border-[#0367A640] hover:border-[#05F2F290] transition-all duration-400 flex flex-col h-full"
+            >
               <div className="overflow-hidden max-h-70 h-full">
                 <Image
                   src={IdeaVault}
@@ -94,9 +105,17 @@ const Projects = () => {
                   </Link>
                 </div>
               </div>
-            </div>
+            </motion.div>
 
-            <div className="space-y-4 group bg-[#011b30] overflow-hidden rounded-lg border border-[#0367A640] hover:border-[#05F2F290] transition-all duration-400 flex flex-col h-full">
+            <motion.div
+              initial={{ opacity: 0, y: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                duration: 0.5,
+                scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
+              }}
+              className="space-y-4 group bg-[#011b30] overflow-hidden rounded-lg border border-[#0367A640] hover:border-[#05F2F290] transition-all duration-400 flex flex-col h-full"
+            >
               <div className="overflow-hidden">
                 <Image
                   src={Tiles}
@@ -162,9 +181,17 @@ const Projects = () => {
                   </Link>
                 </div>
               </div>
-            </div>
+            </motion.div>
 
-            <div className="space-y-4 group bg-[#011b30] overflow-hidden rounded-lg border border-[#0367A640] hover:border-[#05F2F290] transition-all duration-400 flex flex-col h-full">
+            <motion.div
+              initial={{ opacity: 0, y: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                duration: 0.5,
+                scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
+              }}
+              className="space-y-4 group bg-[#011b30] overflow-hidden rounded-lg border border-[#0367A640] hover:border-[#05F2F290] transition-all duration-400 flex flex-col h-full"
+            >
               <div className="overflow-hidden">
                 <Image
                   src={DigiTools}
@@ -226,7 +253,7 @@ const Projects = () => {
                   </Link>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
 
           <div className="flex items-center justify-center mt-7 md:mt-10">

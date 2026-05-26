@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/Components/Navbar/Navbar";
 import Footer from "@/Components/Footer/Footer";
+import PreloaderProvider from "@/providers/PreloaderProvider";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -16,11 +17,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.className}`}>
       <body className="bg-[#021525] min-h-screen text-white">
-        <Navbar></Navbar>
+        <PreloaderProvider>
+          <Navbar></Navbar>
 
-        <main>{children}</main>
+          <main>{children}</main>
 
-        <Footer></Footer>
+          <Footer></Footer>
+        </PreloaderProvider>
       </body>
     </html>
   );
