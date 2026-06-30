@@ -12,11 +12,21 @@ const Footer = () => {
         <div className="pb-6 flex flex-col md:flex-row justify-between gap-6">
           <div>
             <Link href={"/"}>
-              <h2 className="font-semibold text-[26px] text-[#05F2F2]">
+              <h2 className="font-semibold text-2xl md:text-3xl text-[#05F2F2]">
                 Jubayer
               </h2>
             </Link>
-            <p className="text-[#7588A3]">Frontend Web Developer</p>
+
+            <div className="mt-3">
+              <h3 className="text-[16px] md:text-lg font-bold text-[#7588A3]">
+                Build Something Great Together
+              </h3>
+              <p className="mt-2 max-w-115 text-white/90">
+                I’m open to discussing new projects, creative ideas, and unique
+                opportunities. Let’s work together to turn great ideas into
+                reality.
+              </p>
+            </div>
           </div>
 
           <div>
